@@ -17,7 +17,7 @@ Haxeのパッケージを入れたはずだけれど、正確なところは忘�
 
 ツール-ビルドの方法でちょっと考えたのでメモとして残しておきます。
 
-(【Sublime Text 2】Haxeをコンパイルしてすぐに実行する)[http://qiita.com/2dgames_jp/items/0bcebd6375b58912b42f]
+[【Sublime Text 2】Haxeをコンパイルしてすぐに実行する](http://qiita.com/2dgames_jp/items/0bcebd6375b58912b42f)
 
 によると、build.hxmlを作成すればよい模様です。
 
@@ -25,5 +25,5 @@ Haxeのパッケージを入れたはずだけれど、正確なところは忘�
 -x HelloWorld
 ```
 
-上記のような感じで、-x <main_class>で行けます。  
+上記のような感じで、-x &lt;main_class&gt;で行けます。  
 ただし、Sublime Textのプロジェクト機能でファイルのあるフォルダより親のフォルダから参照していると、build.hxmlを見つけてくれないようです。
