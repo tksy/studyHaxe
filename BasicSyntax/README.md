@@ -70,9 +70,9 @@ for (i in 0...10) {
 9.制御構文
 if、switch、for、while、do while、break、continueがある模様。  
 Java等とは異なる特徴があるようだがこれはコードで書いて確認しました。
-if、switchが式として扱えるの楽しいね。
-あと、switchのbreakは忘れやすいので、そもそも書かないで済むのは嬉しいです。
-VBのSelect～End Selectと同じですかね。
+`if`、`switch`が式として扱えるの楽しいね。
+あと、`switch`の`break`は忘れやすいので、そもそも書かないで済むのは嬉しいです。
+VBの`Select～End Select`と同じですかね。
 
 
 10.ブロック式
